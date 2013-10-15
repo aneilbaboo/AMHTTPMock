@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05713910180DBCF100EFC011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0571390F180DBCF100EFC011 /* Foundation.framework */; };
+		05713915180DBCF100EFC011 /* AMHTTPMock.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 05713914180DBCF100EFC011 /* AMHTTPMock.h */; };
+		05713917180DBCF100EFC011 /* AMHTTPMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 05713916180DBCF100EFC011 /* AMHTTPMock.m */; };
+		0571391E180DBCF100EFC011 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0571391D180DBCF100EFC011 /* XCTest.framework */; };
+		0571391F180DBCF100EFC011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0571390F180DBCF100EFC011 /* Foundation.framework */; };
+		05713921180DBCF100EFC011 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05713920180DBCF100EFC011 /* UIKit.framework */; };
+		05713924180DBCF100EFC011 /* libAMHTTPMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0571390C180DBCF100EFC011 /* libAMHTTPMock.a */; };
+		0571392A180DBCF100EFC011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05713928180DBCF100EFC011 /* InfoPlist.strings */; };
+		0571392C180DBCF100EFC011 /* AMHTTPMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05713922180DBCF100EFC011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05713904180DBCF100EFC011 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0571390B180DBCF100EFC011;
+			remoteInfo = AMHTTPMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0571390A180DBCF100EFC011 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				05713915180DBCF100EFC011 /* AMHTTPMock.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0571390C180DBCF100EFC011 /* libAMHTTPMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMHTTPMock.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0571390F180DBCF100EFC011 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05713913180DBCF100EFC011 /* AMHTTPMock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMHTTPMock-Prefix.pch"; sourceTree = "<group>"; };
+		05713914180DBCF100EFC011 /* AMHTTPMock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMHTTPMock.h; sourceTree = "<group>"; };
+		05713916180DBCF100EFC011 /* AMHTTPMock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMHTTPMock.m; sourceTree = "<group>"; };
+		0571391C180DBCF100EFC011 /* AMHTTPMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMHTTPMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0571391D180DBCF100EFC011 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		05713920180DBCF100EFC011 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		05713927180DBCF100EFC011 /* AMHTTPMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMHTTPMockTests-Info.plist"; sourceTree = "<group>"; };
+		05713929180DBCF100EFC011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMHTTPMockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05713909180DBCF100EFC011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05713910180DBCF100EFC011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05713919180DBCF100EFC011 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571391E180DBCF100EFC011 /* XCTest.framework in Frameworks */,
+				05713924180DBCF100EFC011 /* libAMHTTPMock.a in Frameworks */,
+				05713921180DBCF100EFC011 /* UIKit.framework in Frameworks */,
+				0571391F180DBCF100EFC011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05713903180DBCF100EFC011 = {
+			isa = PBXGroup;
+			children = (
+				05713911180DBCF100EFC011 /* AMHTTPMock */,
+				05713925180DBCF100EFC011 /* AMHTTPMockTests */,
+				0571390E180DBCF100EFC011 /* Frameworks */,
+				0571390D180DBCF100EFC011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0571390D180DBCF100EFC011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0571390C180DBCF100EFC011 /* libAMHTTPMock.a */,
+				0571391C180DBCF100EFC011 /* AMHTTPMockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0571390E180DBCF100EFC011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0571390F180DBCF100EFC011 /* Foundation.framework */,
+				0571391D180DBCF100EFC011 /* XCTest.framework */,
+				05713920180DBCF100EFC011 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05713911180DBCF100EFC011 /* AMHTTPMock */ = {
+			isa = PBXGroup;
+			children = (
+				05713914180DBCF100EFC011 /* AMHTTPMock.h */,
+				05713916180DBCF100EFC011 /* AMHTTPMock.m */,
+				05713912180DBCF100EFC011 /* Supporting Files */,
+			);
+			path = AMHTTPMock;
+			sourceTree = "<group>";
+		};
+		05713912180DBCF100EFC011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05713913180DBCF100EFC011 /* AMHTTPMock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05713925180DBCF100EFC011 /* AMHTTPMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */,
+				05713926180DBCF100EFC011 /* Supporting Files */,
+			);
+			path = AMHTTPMockTests;
+			sourceTree = "<group>";
+		};
+		05713926180DBCF100EFC011 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05713927180DBCF100EFC011 /* AMHTTPMockTests-Info.plist */,
+				05713928180DBCF100EFC011 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0571390B180DBCF100EFC011 /* AMHTTPMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0571392F180DBCF100EFC011 /* Build configuration list for PBXNativeTarget "AMHTTPMock" */;
+			buildPhases = (
+				05713908180DBCF100EFC011 /* Sources */,
+				05713909180DBCF100EFC011 /* Frameworks */,
+				0571390A180DBCF100EFC011 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMHTTPMock;
+			productName = AMHTTPMock;
+			productReference = 0571390C180DBCF100EFC011 /* libAMHTTPMock.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0571391B180DBCF100EFC011 /* AMHTTPMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05713932180DBCF100EFC011 /* Build configuration list for PBXNativeTarget "AMHTTPMockTests" */;
+			buildPhases = (
+				05713918180DBCF100EFC011 /* Sources */,
+				05713919180DBCF100EFC011 /* Frameworks */,
+				0571391A180DBCF100EFC011 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05713923180DBCF100EFC011 /* PBXTargetDependency */,
+			);
+			name = AMHTTPMockTests;
+			productName = AMHTTPMockTests;
+			productReference = 0571391C180DBCF100EFC011 /* AMHTTPMockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05713904180DBCF100EFC011 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Aneil Mallavarapu";
+			};
+			buildConfigurationList = 05713907180DBCF100EFC011 /* Build configuration list for PBXProject "AMHTTPMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05713903180DBCF100EFC011;
+			productRefGroup = 0571390D180DBCF100EFC011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0571390B180DBCF100EFC011 /* AMHTTPMock */,
+				0571391B180DBCF100EFC011 /* AMHTTPMockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0571391A180DBCF100EFC011 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571392A180DBCF100EFC011 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05713908180DBCF100EFC011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05713917180DBCF100EFC011 /* AMHTTPMock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05713918180DBCF100EFC011 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0571392C180DBCF100EFC011 /* AMHTTPMockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05713923180DBCF100EFC011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0571390B180DBCF100EFC011 /* AMHTTPMock */;
+			targetProxy = 05713922180DBCF100EFC011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05713928180DBCF100EFC011 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05713929180DBCF100EFC011 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0571392D180DBCF100EFC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0571392E180DBCF100EFC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05713930180DBCF100EFC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMHTTPMock.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMHTTPMock/AMHTTPMock-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		05713931180DBCF100EFC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMHTTPMock.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMHTTPMock/AMHTTPMock-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		05713933180DBCF100EFC011 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMHTTPMock/AMHTTPMock-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AMHTTPMockTests/AMHTTPMockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		05713934180DBCF100EFC011 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMHTTPMock/AMHTTPMock-Prefix.pch";
+				INFOPLIST_FILE = "AMHTTPMockTests/AMHTTPMockTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05713907180DBCF100EFC011 /* Build configuration list for PBXProject "AMHTTPMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0571392D180DBCF100EFC011 /* Debug */,
+				0571392E180DBCF100EFC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0571392F180DBCF100EFC011 /* Build configuration list for PBXNativeTarget "AMHTTPMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05713930180DBCF100EFC011 /* Debug */,
+				05713931180DBCF100EFC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05713932180DBCF100EFC011 /* Build configuration list for PBXNativeTarget "AMHTTPMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05713933180DBCF100EFC011 /* Debug */,
+				05713934180DBCF100EFC011 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05713904180DBCF100EFC011 /* Project object */;
+}
