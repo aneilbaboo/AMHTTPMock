@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface AMHTTPMock : NSObject
+#import <Foundation/Foundation.h>
 
+@interface AMHTTPMock : NSURLProtocol
++ (void)clearRoutes;
++ (void)addMockRoute:(NSString *)url method:(NSString *)method body:(NSData *)data statusCode:(NSUInteger)statusCode headers:(NSDictionary *)headers;
++ (void)addMockRoute:(NSString *)url method:(NSString *)method stringBody:(NSString *)data statusCode:(NSUInteger)statusCode  headers:(NSDictionary *)headers;
++ (void)setup;
++ (void)teardown;
 @end

@@ -53,6 +53,7 @@
 		05713927180DBCF100EFC011 /* AMHTTPMockTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMHTTPMockTests-Info.plist"; sourceTree = "<group>"; };
 		05713929180DBCF100EFC011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMHTTPMockTests.m; sourceTree = "<group>"; };
+		05713935180DBDE300EFC011 /* AMHTTPMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AMHTTPMock.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		05713903180DBCF100EFC011 = {
 			isa = PBXGroup;
 			children = (
+				05713935180DBDE300EFC011 /* AMHTTPMock.podspec */,
 				05713911180DBCF100EFC011 /* AMHTTPMock */,
 				05713925180DBCF100EFC011 /* AMHTTPMockTests */,
 				0571390E180DBCF100EFC011 /* Frameworks */,
