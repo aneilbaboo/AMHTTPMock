@@ -16,6 +16,7 @@
 		05713924180DBCF100EFC011 /* libAMHTTPMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0571390C180DBCF100EFC011 /* libAMHTTPMock.a */; };
 		0571392A180DBCF100EFC011 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05713928180DBCF100EFC011 /* InfoPlist.strings */; };
 		0571392C180DBCF100EFC011 /* AMHTTPMockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */; };
+		057B9CC8180DD08D00B82D41 /* AMMockRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 057B9CC7180DD08D00B82D41 /* AMMockRoute.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		05713929180DBCF100EFC011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0571392B180DBCF100EFC011 /* AMHTTPMockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMHTTPMockTests.m; sourceTree = "<group>"; };
 		05713935180DBDE300EFC011 /* AMHTTPMock.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AMHTTPMock.podspec; sourceTree = "<group>"; };
+		057B9CC6180DD08D00B82D41 /* AMMockRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMockRoute.h; sourceTree = "<group>"; };
+		057B9CC7180DD08D00B82D41 /* AMMockRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMMockRoute.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				05713914180DBCF100EFC011 /* AMHTTPMock.h */,
 				05713916180DBCF100EFC011 /* AMHTTPMock.m */,
 				05713912180DBCF100EFC011 /* Supporting Files */,
+				057B9CC6180DD08D00B82D41 /* AMMockRoute.h */,
+				057B9CC7180DD08D00B82D41 /* AMMockRoute.m */,
 			);
 			path = AMHTTPMock;
 			sourceTree = "<group>";
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05713917180DBCF100EFC011 /* AMHTTPMock.m in Sources */,
+				057B9CC8180DD08D00B82D41 /* AMMockRoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +417,7 @@
 				05713931180DBCF100EFC011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05713932180DBCF100EFC011 /* Build configuration list for PBXNativeTarget "AMHTTPMockTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +426,7 @@
 				05713934180DBCF100EFC011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

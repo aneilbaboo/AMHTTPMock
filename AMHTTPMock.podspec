@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   }
   
   s.author       = { "Aneil Mallavarapu" => "aneil.mallavar@gmail.com" }
-  s.source       = { :git => "https://github.com/aneilbaboo/AMHTTPMock.git", :tag => "0.0" }
+  #s.source       = { :git => "https://github.com/aneilbaboo/AMHTTPMock.git", :tag => "0.0" }
 
   s.source_files = 'AMHTTPMock', 'AMHTTPMock/*.{h,m}'
   s.framework  = 'Foundation'
